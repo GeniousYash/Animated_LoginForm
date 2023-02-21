@@ -1,0 +1,97 @@
+.maincontainer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+.monkeylogin{
+	width: 350px;
+	height: 500px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.425);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgb(139, 255, 226);
+	border-radius: 40px;
+}
+.monkeylogin:hover{
+    width: 370px;
+    height: 510px;
+    transition: all 0.3s ease-in;
+}
+.animcon{
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+	margin-top:20px;
+	height: 170px;
+	width: 170px;
+	border-radius: 50%;
+	background-image:url(https://raw.githubusercontent.com/naaficodes/Monkey-Login/master/images/monkey.gif);
+	background-size: 90% 85%;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.644);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.animcon:hover{
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease-in;
+}
+.animcon img{
+	margin-top:110%;
+	height: 170px;
+	width: 170px;
+	transition: 1s;
+}
+.formcon{
+	margin-top: 38px;
+}
+input{
+	height: 40px;
+	width: 300px;
+	border-radius: 20px;
+	border:none;
+	color: #2c2c2c;
+	text-indent: 15px;
+	font-size: 100%;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.493);
+	outline: none;
+}
+input:hover{
+    height: 45px;
+}
+input::placeholder{
+	color:lightgrey;
+	font-size: 100%;
+	font-weight: lighter;
+	text-indent: 15px;
+}
+.sbutton{
+	text-indent: 0px;
+	height: 40px;
+	width: 300px;
+	margin-top: 10px;
+	background-color: #1e40ff;
+	transition: "2s";
+	border: none;
+	color: white;
+	font-weight: bolder;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.459);
+	outline: none;
+
+}
+.sbutton:hover{
+	color: #000000;
+	cursor: pointer;
+    font-size: larger;
+    transition: all 0.3s ease-in-out;
+}
+.foot{
+	color: #ffffff;
+	font-weight: lighter;
+	margin-top: 40px;
+}
